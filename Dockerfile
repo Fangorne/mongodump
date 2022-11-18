@@ -7,10 +7,10 @@ LABEL maintainer="Marc Ranchin <marcus_the@msn.com>"
 
 # You can overwrite these setting-parameters in the .env file
 ENV BACKUP_CRON_TIME="12 9 * * *"
-ENV MONGO_HOST=mongodb.fangorne.ddnsfree.com
+ENV MONGO_HOST=*.*.*.com
 ENV MONGO_PORT=27017
-ENV MONGO_USER=mongodb
-ENV MONGO_PASSWORD=mongodb
+ENV MONGO_USER=*******
+ENV MONGO_PASSWORD=*****
 
 ENV KEEP_DAYS=30
 
